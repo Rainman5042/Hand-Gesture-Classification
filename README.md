@@ -1,6 +1,6 @@
 # VGG19 Hand Gesture Classification Model
 
-## Training Data:
+## 資料集:
 
 <img src="https://github.com/Rainman5042/Hand-Gesture-Classification/blob/main/hand.JPG?raw=true" width=50%>
 
