@@ -1,6 +1,6 @@
-# VGG19手勢辨識模型
+# VGG19 Hand Gesture Classification Model
 
-## 資料介紹:
+## Training Data:
 
 <img src="https://github.com/Rainman5042/Hand-Gesture-Classification/blob/main/hand.JPG?raw=true" width=50%>
 
