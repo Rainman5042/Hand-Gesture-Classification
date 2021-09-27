@@ -80,7 +80,47 @@ Learning Rate = 0.001
 
 Batch size = 64
 
-## 訓練結果:
+## 訓練過程&結果:
+
+```
+train_history=model_vgg19.fit(x = img_train,
+                              y = label_train_onehot, validation_split=0.1,
+                              epochs=Epochs, batch_size=Batch_size,verbose=2)  
+```
+
+```
+Train on 1728 samples, validate on 192 samples
+Epoch 1/15
+ - 3s - loss: 6.7590 - acc: 0.3362 - val_loss: 2.7318 - val_acc: 0.7292
+Epoch 2/15
+ - 1s - loss: 2.2208 - acc: 0.7118 - val_loss: 0.6351 - val_acc: 0.8958
+Epoch 3/15
+ - 1s - loss: 0.5327 - acc: 0.8652 - val_loss: 0.1562 - val_acc: 0.9792
+Epoch 4/15
+ - 1s - loss: 0.2459 - acc: 0.9259 - val_loss: 0.1001 - val_acc: 0.9844
+Epoch 5/15
+ - 1s - loss: 0.1388 - acc: 0.9537 - val_loss: 0.0775 - val_acc: 0.9896
+Epoch 6/15
+ - 1s - loss: 0.1092 - acc: 0.9641 - val_loss: 0.0558 - val_acc: 0.9896
+Epoch 7/15
+ - 1s - loss: 0.0729 - acc: 0.9792 - val_loss: 0.0249 - val_acc: 0.9948
+Epoch 8/15
+ - 1s - loss: 0.0721 - acc: 0.9780 - val_loss: 0.0370 - val_acc: 0.9896
+Epoch 9/15
+ - 1s - loss: 0.0553 - acc: 0.9809 - val_loss: 0.0301 - val_acc: 0.9948
+Epoch 10/15
+ - 2s - loss: 0.0479 - acc: 0.9850 - val_loss: 0.0334 - val_acc: 0.9896
+Epoch 11/15
+ - 2s - loss: 0.0423 - acc: 0.9850 - val_loss: 0.0398 - val_acc: 0.9896
+Epoch 12/15
+ - 2s - loss: 0.0411 - acc: 0.9907 - val_loss: 0.0424 - val_acc: 0.9844
+Epoch 13/15
+ - 2s - loss: 0.0313 - acc: 0.9896 - val_loss: 0.0126 - val_acc: 1.0000
+Epoch 14/15
+ - 2s - loss: 0.0296 - acc: 0.9907 - val_loss: 0.0125 - val_acc: 0.9948
+Epoch 15/15
+ - 2s - loss: 0.0230 - acc: 0.9942 - val_loss: 0.0098 - val_acc: 0.9948
+```
 
 準確率約可達到99%
 
