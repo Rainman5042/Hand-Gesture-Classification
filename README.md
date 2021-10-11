@@ -122,7 +122,7 @@ Epoch 15/15
  - 2s - loss: 0.0230 - acc: 0.9942 - val_loss: 0.0098 - val_acc: 0.9948
 ```
 
-準確率約可達到99%
+準確率約可達到99.5%
 
 ```
 scores = model_vgg19.evaluate(img_val , label_val_onehot)
